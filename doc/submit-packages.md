@@ -1,5 +1,8 @@
 # Submit packages
 
+Submit packages lists from openSUSE to SLES. 
+Rationale: it is used to automatize submit request from openSUSE to SLES.
+
 It follow a declarative API based on yaml:
 
 Its main and unique usage is  send packages to various codestream. Maintaining them as declarative format.
@@ -10,7 +13,7 @@ Its main and unique usage is  send packages to various codestream. Maintaining t
       - foo
       - bar
 ```
-The CODESTREAM is the targed, where we want to submit packages. On th
+The CODESTREAM is the targed, where we want to submit packages. (OBS sles)
 `from`: is the openSUSE project you want to sumbit the pkg from ( to sles ibs)
 `packages`: is a list or single package to submits to target code stream
 
